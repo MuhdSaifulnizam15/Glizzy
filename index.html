@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looplab</title>
+    <title>Glizzy</title>
 
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -16,7 +16,86 @@
 
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Glizzy</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Showcase Slider Section -->
+    <section id="showcase">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading 1</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et harum asperiores officia esse necessitatibus qui eaque quas possimus, illum vel?</p>
+                            <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                            <h1 class="display-3">Heading 2</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et harum asperiores officia esse necessitatibus qui eaque quas possimus, illum vel?</p>
+                            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                            <h1 class="display-3">Heading 3</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et harum asperiores officia esse necessitatibus qui eaque quas possimus, illum vel?</p>
+                            <a href="#" class="btn btn-info btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!-- End Showcase Slider Section -->
 
     <!-- JQuery JS File -->
     <script src="./js/jquery-3.4.1.min.js"></script>

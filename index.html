@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+    <!-- Lightbox CSS File -->
+
+    <link rel="stylesheet" href="./vendor/lightbox.css">
+
     <!-- Fontawesome icons CSS File -->
     <link rel="stylesheet" href="./css/all.min.css">
     
@@ -168,12 +172,12 @@
         <div class="dark-overlay">
             <div class="row">
                 <div class="col">
-                    <div class="container p-5">
+                    <div class="container p-4">
                         <a 
                             href="#" class="video" data-video="https://www.youtube.com/embed/raoOoWU7DI0" data-toggle="modal" data-target="#videoModal">
                             <i class="fas fa-play fa-3x mb-3"></i>
                         </a>
-                        <h1>See What We Do</h1>
+                        <h1 class="mb-3">See What We Do</h1>
                     </div>
                 </div>
             </div>
@@ -181,7 +185,98 @@
     </section>
     <!-- End Video Player Section -->
 
-    <!-- Modal -->
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Photo Gallery</h1>
+            <p class="text-center">Check Out Our Photos</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+                        <img src="https://source.unsplash.com/random/560x560" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+                        <img src="https://source.unsplash.com/random/561x561" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/570x570" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="570">
+                        <img src="https://source.unsplash.com/random/570x570" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/660x660" data-toggle="lightbox" data-gallery="img-gallery" data-height="660" data-width="660">
+                        <img src="https://source.unsplash.com/random/660x660" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/461x461" data-toggle="lightbox" data-gallery="img-gallery" data-height="461" data-width="461">
+                        <img src="https://source.unsplash.com/random/461x461" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/570x570" data-toggle="lightbox" data-gallery="img-gallery" data-height="570" data-width="570">
+                        <img src="https://source.unsplash.com/random/570x570" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/860x860" data-toggle="lightbox" data-gallery="img-gallery" data-height="860" data-width="860">
+                        <img src="https://source.unsplash.com/random/860x860" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/961x961" data-toggle="lightbox" data-gallery="img-gallery" data-height="961" data-width="961">
+                        <img src="https://source.unsplash.com/random/961x961" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/570x570" data-toggle="lightbox" data-gallery="img-gallery" data-height="570" data-width="570">
+                        <img src="https://source.unsplash.com/random/570x570" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Photo Gallery Section -->
+
+    <!-- NewsLetter Section -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sign Up For Our Newsletter</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus officiis, voluptatem voluptatum laudantium quos debitis sequi doloribus magnam corporis est atque quas reprehenderit facilis quod saepe? Earum, excepturi non.
+                    </p>
+                    <form class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+                        <input type="email" class="form-control mb-2 mr-2" placeholder="Enter Email">
+                        <button class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End NewsLetter Section -->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; <span id="year"></span> Glizzy Co.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
     <!-- Video Modal -->
     <div class="modal fade" id="videoModal">
         <div class="modal-dialog">
@@ -195,13 +290,16 @@
             </div>
         </div>
     </div>
-    <!-- End Modal -->
+    <!-- End Video Modal -->
 
     <!-- JQuery JS File -->
     <script src="./js/jquery-3.4.1.min.js"></script>
 
     <!-- Bootsrap JS File -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Lightbox JS File -->
+    <script src="./vendor/lightbox.min.js"></script>
 
     <!-- Custom JS File -->
     <script src="./js/main.js"></script>

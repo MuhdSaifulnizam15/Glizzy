@@ -92,6 +92,23 @@ body {
 }
 /* End About Section */
 
+/* FAQ Section */
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: white;
+    text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+    background: #333;
+    border: 1px wheat solid;
+}
+/* End FAQ Section */
+
 @media (max-width: 768px) {
     .navbar .nav-link {
         padding-left: 0.8rem !important;

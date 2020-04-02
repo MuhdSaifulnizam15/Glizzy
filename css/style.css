@@ -75,6 +75,23 @@ body {
 }
 /* End Video Player Section */
 
+/* Page Header */
+#page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px wheat solid;
+}
+/* End Page Header */
+
+/* About Section */
+.about-img {
+    margin-top: -50px;
+}
+/* End About Section */
+
 @media (max-width: 768px) {
     .navbar .nav-link {
         padding-left: 0.8rem !important;

@@ -18,3 +18,9 @@ $('#main-nav a').on('click', function (event) {
         });
     }
 });
+
+// Configure Slider
+$('.carousel').carousel({
+    interval: 6000,
+    pause: 'hover'
+});
